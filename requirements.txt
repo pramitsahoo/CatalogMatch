@@ -1,0 +1,45 @@
+# ============================================
+# Product Matching Pipeline - Requirements
+# ============================================
+
+# PyTorch with CUDA 12.8 (RTX 5070 Ti Blackwell - SM 100)
+# CUDA 12.8+ required for Blackwell architecture support
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch>=2.6.0
+torchvision>=0.21.0
+torchaudio>=2.6.0
+
+# Core data processing
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+tqdm>=4.65
+requests>=2.31
+
+# Embeddings & Vector Store
+chromadb>=0.4.0
+open-clip-torch>=2.20.0
+
+# VLM Reranker (Qwen3-VL)
+transformers>=4.57.0
+accelerate>=0.35.0
+qwen-vl-utils>=0.0.14
+bitsandbytes>=0.46.1
+
+# vLLM for high-performance inference (Optional)
+# vllm>=0.11.0
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.12
+
+# Jupyter Notebook
+jupyterlab>=4.0
+ipywidgets>=8.0
+
+# Image processing
+Pillow>=10.0
+
+# Excel export
+openpyxl>=3.1.0
