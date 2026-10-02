@@ -28,12 +28,11 @@ A two-stage multimodal product matching pipeline combining **Qwen3-VL-Embedding-
 
 Product matching in e-commerce platforms involves identifying identical products listed by different sellers. This is critical for duplicate listing prevention, product catalog enrichment, price comparison, and inventory consolidation.
 
-E-ticaret platformlarında ürün eşleştirme, farklı satıcılardan gelen aynı ürünlerin tespit edilmesi için kritik bir problemdir: duplicate listing önleme, ürün kataloğu zenginleştirme, fiyat karşılaştırma ve envanter konsolidasyonu.
 
 > **Key Insight: Similarity != Identity**
 > Two products can be visually and textually very similar but have different sizes, colors, or package contents. Embedding similarity alone is not sufficient -- cross-encoder reranking is needed to verify true matches.
 >
-> İki ürün görsel ve metin olarak çok benzer olabilir ama farklı boyut, renk veya paket içeriğine sahip olabilir. Sadece embedding similarity yetmez -- cross-encoder reranking ile gerçek eşleştirme doğrulanmalıdır.
+
 
 ---
 
