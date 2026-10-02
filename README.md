@@ -98,7 +98,7 @@ With this strategy:
 - **~26%** routed to human review
 - **95%+** precision guaranteed in automated decisions
 
-Bu strateji ile sorgu trafiğinin ~%74'ü otomatik, ~%26'sı insan kontrolünde işlenir.
+
 
 ---
 
